@@ -5,6 +5,11 @@ import java.util.List;
 public class AnggotaDaoImpl implements AnggotaDao{
     List<Anggota> data = new ArrayList();
 
+    public AnggotaDaoImpl() {
+        data.add(new Anggota("98111","Ali","Padang","L"));
+        data.add(new Anggota("98121","Ani","Padang","P"));
+    }
+    
     public void save(Anggota anggota){
         data.add(anggota);
     }
