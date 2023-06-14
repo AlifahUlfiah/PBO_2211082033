@@ -19,7 +19,7 @@ public class AnggotaDaoImpl implements AnggotaDao{
     }
     
     public void update(Anggota anggota) throws SQLException{
-        String sql = "update anggota set nama=?, alamat=?, jenisKelamin=?, where nobp=?";
+        String sql = "update anggota set nama=?, alamat=?, jenisKelamin=? where nobp=?";
         PreparedStatement ps = connection.prepareStatement(sql);
         
         ps.setString(1,anggota.getNama());
