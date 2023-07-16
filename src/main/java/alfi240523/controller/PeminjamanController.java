@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.logging.*;
 import javax.swing.table.DefaultTableModel;
 
+/*
 public class PeminjamanController {
     FormPeminjaman view;
     Peminjaman model;
@@ -132,3 +133,4 @@ public class PeminjamanController {
         }
     }
 }
+*/

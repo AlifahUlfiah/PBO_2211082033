@@ -1,7 +1,7 @@
 package alfi240523.dao;
 
 import java.sql.*;
-import alfi240523.model.Peminjaman;
+import alfi240523.model.*;
 import java.util.*;
 
 public class PeminjamanDaoImpl implements PeminjamanDao{

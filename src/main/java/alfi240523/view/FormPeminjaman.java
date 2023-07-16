@@ -1,11 +1,11 @@
 package alfi240523.view;
 import alfi240523.controller.*;
 public class FormPeminjaman extends javax.swing.JFrame {
-    PeminjamanController controller;
+    //PeminjamanController controller;
     public FormPeminjaman() {
         initComponents();
-        controller = new PeminjamanController(this);
-        controller.clearForm();
+        //controller = new PeminjamanController(this);
+        //controller.clearForm();
     }
     
     public javax.swing.JComboBox<String> getCboNobp() {
@@ -141,7 +141,7 @@ public class FormPeminjaman extends javax.swing.JFrame {
 
     private void btnCancelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCancelActionPerformed
         // TODO add your handling code here:
-        controller.clearForm();
+        //controller.clearForm();
     }//GEN-LAST:event_btnCancelActionPerformed
 
     private void btnExitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnExitActionPerformed
